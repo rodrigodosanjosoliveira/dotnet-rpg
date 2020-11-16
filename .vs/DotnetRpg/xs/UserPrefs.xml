@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{627274B6-A9F3-4124-B404-10945E8568F7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DotnetRpg/Services/CharacterService.cs">
+    <Files>
+      <File FileName="DotnetRpg/Services/CharacterService.cs" Line="89" Column="51" />
+      <File FileName="DotnetRpg/Controllers/CharacterController.cs" Line="45" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DotnetRpg" expanded="True">
+            <Node name="DotnetRpg" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="CharacterService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DotnetRpg PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/Controllers/CharacterController.cs" relfile="DotnetRpg/Controllers/CharacterController.cs" line="40" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
