@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj": {}
+    "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj": {}
   },
   "projects": {
-    "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj": {
+    "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj",
+        "projectUniqueName": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj",
         "projectName": "DotnetRpg",
-        "projectPath": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj",
-        "packagesPath": "/Users/rodrigo/.nuget/packages/",
-        "outputPath": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/obj/",
+        "projectPath": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj",
+        "packagesPath": "C:\\Users\\rodrigo.oliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/rodrigo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rodrigo.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.cnova.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +48,10 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -54,6 +61,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -66,12 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
