@@ -20,9 +20,9 @@ namespace DotnetRpg.Services
             _context = context;
         }
         
-        public async Task<ServiceResponse<List<GetCharacterDto>>> GetAllCharacters()
+        public async Task<ServiceResponse<List<GetCharacterDto>>> GetAllCharacters(int userId)
         {
-            var dbCharacters = await _context.Characters.ToListAsync();
+            var dbCharacters = await _context.Characters.Where(c => c.User.Id == userId).ToListAsync();
             var serviceResponse = new ServiceResponse<List<GetCharacterDto>>
             {
                 Data = dbCharacters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList()
