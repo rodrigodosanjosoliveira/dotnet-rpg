@@ -26,7 +26,8 @@ namespace DotnetRpg.Controllers
         [Route("GetAll")]
         public async Task<IActionResult> Get()
         {
-            int userId = int.Parse(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier).Value);
+            int userId = int.Parse(User.Claims.FirstOrDefault(
+                c => c.Type == ClaimTypes.NameIdentifier).Value);
             return Ok(await _characterService.GetAllCharacters(userId));
         }
         
@@ -43,9 +44,11 @@ namespace DotnetRpg.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCharacter(UpdateCharacterDto updatedCharacter)
+        public async Task<IActionResult> UpdateCharacter
+            (UpdateCharacterDto updatedCharacter)
         {
-            ServiceResponse<GetCharacterDto> response = await _characterService.UpdateCharacter(updatedCharacter);
+            ServiceResponse<GetCharacterDto> response = 
+                await _characterService.UpdateCharacter(updatedCharacter);
             if(response.Data == null) return NotFound(response);
 
             return Ok(response);

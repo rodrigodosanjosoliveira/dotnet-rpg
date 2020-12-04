@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj": {}
+    "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj": {
+    "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj",
+        "projectUniqueName": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj",
         "projectName": "DotnetRpg",
-        "projectPath": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\DotnetRpg.csproj",
-        "packagesPath": "C:\\Users\\rodrigo.oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodrigo.oliveira\\source\\repos\\dotnet-rpg\\DotnetRpg\\obj\\",
+        "projectPath": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/DotnetRpg.csproj",
+        "packagesPath": "/Users/rodrigo/.nuget/packages/",
+        "outputPath": "/Users/rodrigo/RiderProjects/DotnetRpg/DotnetRpg/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rodrigo.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rodrigo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.cnova.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,6 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

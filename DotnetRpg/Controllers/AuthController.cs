@@ -34,7 +34,8 @@ namespace DotnetRpg.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login(UserRegisterDto request)
         {
-            ServiceResponse<string> response = await _authRepo.Login(request.Username, request.Password);
+            ServiceResponse<string> response = 
+                await _authRepo.Login(request.Username, request.Password);
             if (!response.Success)
             {
                 return BadRequest(response);
